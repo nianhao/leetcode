@@ -1,7 +1,9 @@
+package com.leetcodePro.solve;
+
 import java.util.Arrays;
 
 public class HuaWei {
-    double findMedianSortedArray(int[]nums1,int[] nums2){
+    double findMedianSortedArray2(int[]nums1,int[] nums2){
         int n1 = nums1.length;
         int n2 = nums2.length;
         int n = n1+n2;
@@ -17,7 +19,7 @@ public class HuaWei {
         else
             return ans[n/2]+0.0;
     }
-    double findMedianSortedArray(int[]nums1,int[] nums2){
+    void findMedianSortedArray(int[]nums1, int[] nums2){
         int n1 = nums1.length;
         int n2 = nums2.length;
         int n = n1+n2;
